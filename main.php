@@ -1,9 +1,9 @@
 <?php
 // MySQL server config:
 const DB_HOST = 'localhost';
-const DB_NAME = 'kittysan_ellgree';
-const DB_USER = 'kittysan_ellgree';
-const DB_PASSWD = 'wb)173P[VS';
+const DB_NAME = 'ellgree';
+const DB_USER = 'ellgree';
+const DB_PASSWD = '???masked???';
 
 header('Content-Type: text/plain');
 if (!isset($_GET['method']) || !preg_match('/^(dice|log|view)$/', $_GET['method'])) {
